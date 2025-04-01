@@ -1,0 +1,11 @@
+version: '3.8'
+
+services:
+
+  seplag-pessoas-desaparecidas:
+    container_name: seplag-pessoas-desaparecidas
+    ports:
+      - 9090:9090
+    build:
+      context: ./
+      dockerfile: Dockerfile
